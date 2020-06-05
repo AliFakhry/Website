@@ -1,28 +1,31 @@
 ﻿<!DOCTYPE html>
 
-<!-- INDEX IS NOW FIRST PAGE YOU OPEN. HOME WILL BE ANY TIME YOU PRESS HOME. THIS IS SO THE WARNING MESSAGE ONLY COMES UP ONCE.-->
+<!-- INDEX IS NOW FIRST PAGE YOU OPEN. MAIN WILL BE ANY TIME YOU PRESS MAIN. THIS IS SO THE WARNING MESSAGE ONLY COMES UP ONCE.
+        Whenever you update index, update main
+    -->
 
 <html ng-app="fl">
 <script>alert("Attention mobile users: This website is not optimized for mobile. Please download the app Coronavirus Oregon on the Apple appstore");</script>
-  <head>
-     <div class="topnav">
-             <a style = font-family:monospace class="active" href="#home">Main</a>
-             <a style = font-family:monospace href="Information.html">Information</a>
-             <a style = font-family:monospace href="Tips.html">Tips</a>
-             <a style = font-family:monospace href="Contact.html">Contact</a>
-             <a style = font-family:monospace href="Cases.html">Cases and Stats</a>
-     </div>
-     <br>
+<head>
+    <div class="topnav">
+        <a style=font-family:monospace class="active" href="#home">Main</a>
+        <a style=font-family:monospace href="Information.html">Information</a>
+        <a style=font-family:monospace href="Tips.html">Tips</a>
+        <a style=font-family:monospace href="Contact.html">Contact</a>
+        <a style=font-family:monospace href="Cases.html">Cases and Stats</a>
+    </div>
+    <br>
     <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
-    <script type = "jQueryFile.js"></script>
+    <script type="jQueryFile.js">
+    </script>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Covid Title</title>
     <link rel="stylesheet" href="styles.css" type="text/css">
     <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
-    <script src = "react.js"></script>
-    <script src = "react-dom.js"></script>
-  </head>
+    <script src="react.js"></script>
+    <script src="react-dom.js"></script>
+</head>
   <body ng-controller="MainCtrl" ng-init="init()">
   <header style = font-family:monospace class="header"><h1>Severe acute respiratory syndrome Coronavirus 2 (SARS-CoV-2): Statistics Website
    Centralized and Targeted for Oregonians</h1></header> 
