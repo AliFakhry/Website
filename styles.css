@@ -1,3 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+  height: 100%;
+  -webkit-animation: hue-rotate 10s linear infinite;
+          animation: hue-rotate 10s linear infinite;
+}
+
+.containerButton {
+  max-width:100%;
+  max-height:100%
+}
+
+.containerButtonUpdated{
+  width:400px;
+  height:400px;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.gif-center
+{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+* {
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+  height: 100%;
+  -webkit-animation: hue-rotate 10s linear infinite;
+          animation: hue-rotate 10s linear infinite;
+}
+
 
 @import 'normalize.css';
 
@@ -27,7 +76,7 @@ html
   }
 
   body {
-    margin: 50px;
+    margin-left: 10px;
   }
   
   .ng-cloak {
@@ -254,34 +303,12 @@ nav h2 li span {
   z-index: -1;
 }
 
-
 nav h2 li:hover {
-  color: white;
+  color: black;
 }
-
-    nav h2 li a {
-        text-decoration: none;
-        color: var(--c);
-    }
-
-        nav h2 li a:visited {
-            text-decoration: none;
-            color: var(--c);
-        }
-
-        nav h2 li a:hover {
-            text-decoration: none;
-            color: white;
-        }
-
-        nav h2 li a:focus {
-            text-decoration: none;
-            color: var(--c);
-        }
 
 nav h2 li:hover span {
   transform: translateY(0) scale(2);
-  color: black;
 }
 
 nav h2 li span:nth-child(1) {
